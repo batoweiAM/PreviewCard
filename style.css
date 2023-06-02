@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*, 
+*::before, 
+*::after{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
+
+body {
+    font-family: 'inter';
+    background-color: black;
+}
+
+.Container{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#innerbody{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 80px;
+    background: #1B1937;
+    box-shadow: 0px 20px 20px -10px rgba(23, 25, 41, 0.203087);
+    border-radius: 8px;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 900px;
+    height: 446px;
+}
+
+#innerbody .left{
+    margin: 50px 40px 0 50px;
+    width: 450px;
+
+}
+#innerbody .right{
+    width: 450px;
+}
+
+.left h1{
+    color: white;
+
+}
+.left span{
+    color: rgb(132, 8, 136);
+}
+
+.collections span{
+    color: white;
+}
+
+.left p{
+    margin: 25px 0 25px 0;
+    color: white;
+
+}
+
+.collections {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+
+.companies h2{
+    color: white;   
+}
+
+#templates h2{
+    color: white;
+}
+
+#queries h2{
+    color: white
+}
